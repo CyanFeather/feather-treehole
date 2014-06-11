@@ -1,0 +1,41 @@
+libcs50		Library from harvard university cs50 course
+		Usage: user input from console
+
+hello.c		Language C hello world					./hello
+
+mario_single.c	Print single hill of Game Mario by #			./mario_single
+mario_double.c	Print double hill of Game Mario by #			./mario_double
+greedy.c	Greedy change algorithm					./greedy
+credit		Verify valid of credit card number			./credit
+									Input: 378282246310005, 7722574501
+
+temp_convert.c	Convert temperature from F to C				./temp_convert
+float_math.c	Simple float caculation(Involved type convertion)	./float_math
+sizeof.c	Print sizeof basic data type				./sizeof
+ASCII.c		Print ASCII table(part)					./ASCII
+progress.c	Print progress bar					./progress
+
+arg.c		Argument of function main				./arg PATH ~
+
+iUnlock.c	iPhone jail break sample code				(Example code, cannot be compiled)
+
+caesar.c	Caesar code						./caesar 13
+									Input: Be sure to drink your Ovaltine
+vigenere.c	Vigenere code						./vigenere bacon
+									Input: Meet me at the park at eleven am
+crack		Crack user password by library crypt			./crack 50zPJlUFIYY0o
+									Optional:
+										caesar:50zPJlUFIYY0o
+										hirschhorn:50q.zrL5e0Sak
+										jharvard:50yoN9fp966dU
+										malan:HA610l/.LeOak
+										milo:HAL7ye0Ms7wZY
+										zamyla:50NwUtF.OmQNY
+
+sigma.c		Show recursive(递归) thought by sigma sample		./sigma
+									Input: 7
+
+find		Generate random/seartch/sort				./generate 1000 | ./find 42
+
+game_fifteen	Game fifteen						./game_fifteen 4
+game_breakout	Game breakout						

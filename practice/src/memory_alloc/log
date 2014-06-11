@@ -1,0 +1,11 @@
+Text(const string):		0x8048604
+Static global variable(Init):	0x804a02c
+Static global variable(Uninit):	0x804a030
+Global variable(Init):		0x804a028
+Global variable(Uninit):	0x804a03c
+Static local variable(Init):	0x804a034
+Static local variable(Uninit):	0x804a038
+Local variable 1(Stack):	0xbfec7fd4
+Local variable 2(Stack):	0xbfec7fd0
+Local malloc variable 1(Heap):	0x834f008
+Local malloc variable 2(Heap):	0x834f038

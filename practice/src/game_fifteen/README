@@ -1,0 +1,15 @@
+N-puzzle Game:
+
+1. wiki introduction
+http://en.wikipedia.org/wiki/N-puzzle
+
+2. Algorithm A*
+http://en.wikipedia.org/wiki/A*_search_algorithm
+
+Attention: A* takes up too much memory
+
+3. Iterative Deeping A* (IDA*)
+Enhanced Iterative-Deepening Search.pdf
+
+4. Optional real-time algorithm
+A real-time algorithm for puzzle.pdf
