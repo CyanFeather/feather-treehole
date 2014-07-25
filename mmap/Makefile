@@ -2,15 +2,15 @@
 #  Makefile
 #
 
-CC=g++
-CFLAGS=-Wall
+CC=gcc
+CFLAGS=-Wall -std=c99
+OUT=memory
 
 .PHONY: all clean
-all: memory
+all: $(OUT)
 
-memory: memory.cpp
-	$(CC) memory.cpp $(CFLAGS) -o memory
+$(OUT): %: %.c
+	$(CC) $< $(CFLAGS) -o $@
 
 clean:
-	rm -f *.o *.out *~ memory
-
+	rm -f *.o *.out *~ $(OUT)
